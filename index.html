@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tarjeta de Presentación con Flexbox</title>
+  <style>
+    body {
+      margin: 10;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: linear-gradient(45deg, #bc00e7, #32003d);
+    }
+
+    .card {
+      display: flex;
+      width: 600px;
+      background-color: #E6E6FA;
+      box-shadow: 0 4px 8px rgb(26, 0, 105);;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .card img {
+      width: 260px;
+      height: 400px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+      text-align: justify;
+    }
+
+    .card-content h2 {
+      margin-top: 0;
+      font-size: 32px;
+    }
+
+    .card-content p {
+      margin-bottom: 0;
+      font-size: 25px;
+      font-weight: bold;
+      color: #43184e;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="Hugo.jpg" alt="Imagen de perfil">
+    <div class="card-content">
+      <h2>Villacis Victor</h2>
+      <p>Estudiante de Ingenieria</p>
+      <p>Hola mi nombre es Victor, cuento con 19 años de edad, actualmente vivo en guayaquil y estudio en la universidad de esta ciudad, te invito a que seamos amigos:)</p>
+    </div>
+  </div>
+
+</body>
+</html>
